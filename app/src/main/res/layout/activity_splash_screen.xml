@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/slpscreen"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/splace"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:padding="35dp"
+        />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slpscreen"
+        android:fontFamily="@font/basic"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Welcome to Big Buy"
+        android:textColor="#000"
+        android:textSize="30sp" />
+    <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myprogressbar"
+        app:alliance_animDuration="500"
+        app:alliance_distanceMultiplier="4"
+        app:alliance_dotsRadius="8dp"
+        android:layout_below="@id/slogan"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        app:alliance_firstDotsColor="#cc00b9"
+        app:alliance_secondDotsColor="#55ff22"
+        app:alliance_thirdDotsColor="@color/purple_700" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Big_Buy</string>
+    <string name="are_you_sure_want_to_exit">Are you sure want to exit?</string>
+    <string name="confirm_exit">Confirm Exit...!!</string>
+    <string name="rate">Rate</string>
+    <string name="Exit">Exit</string>
+    <string name="More">More</string>
+</resources>
